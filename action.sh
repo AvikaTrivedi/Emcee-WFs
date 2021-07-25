@@ -1,5 +1,5 @@
 branch=main
-git clone https://github.com/satyanandatripathi/soulmatemusic /root/DaisyXMusic
+git clone https://github.com/Aquila-14/EmceeVCplayer /root/DaisyXMusic
 cp daisyx/local.env /root/DaisyXMusic/local.env
 cd /root/DaisyXMusic
 docker build . -t daisyx
