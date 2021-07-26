@@ -1,6 +1,6 @@
 #mainly written by sipak pro for ultroid and edited by satyanand for daisyx
 
-name: DaisyXMusic Workflow
+name: DaisyXMusic-patch Workflow
 
 on:
     push:
