@@ -1,6 +1,6 @@
 #mainly written by sipak pro for ultroid and edited by satyanand for daisyx
 
-name: DaisyXMusic-patch Workflow
+name: Rikudo senin system 3 Workflow
 
 on:
     push:
@@ -29,8 +29,8 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone https://${{ secrets.GitHubName }}:${{ secrets.GH_TOKEN }}@${{ secrets.CREDS }} daisyx
-       - name: Running Daisyx
+           git clone https://${{ secrets.GitHubName }}:${{ secrets.GH_TOKEN }}@${{ secrets.CREDS }} sys3
+       - name: Running sys3
          timeout-minutes: 350
          continue-on-error: true
          run: |
