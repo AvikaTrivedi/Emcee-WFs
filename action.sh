@@ -1,6 +1,7 @@
-branch=main
-git clone https://github.com/Aquila-14/EmceeVCplayer /root/DaisyXMusic
-cp daisyx/local.env /root/DaisyXMusic/local.env
-cd /root/DaisyXMusic
-docker build . -t daisyx
-docker run --privileged --env-file local.env --rm -i daisyx
+git clone https://github.com/AvikaTrivedi/video-stream /root/sys3
+cp sys3/local.env /root/sys3/local.env
+cd /root/sys3
+chmod 777 /root/sys3
+apt-get update -y
+docker build . -t sys3
+docker run --privileged --env-file local.env --rm -i sys3
