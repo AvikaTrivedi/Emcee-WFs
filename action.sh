@@ -1,4 +1,4 @@
-git clone -b tp-plugin https://github.com/levina-lab/video-stream /root/sys3
+git clone https://github.com/AvikaTrivedi/video-stream /root/sys3
 cp sys3/local.env /root/sys3/local.env
 cd /root/sys3
 chmod 777 /root/sys3
