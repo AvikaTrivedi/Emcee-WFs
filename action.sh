@@ -1,5 +1,5 @@
-git clone https://github.com/satyanandatripathi/video-stream /root/sys3
-cp sys3/local.env /root/sys3/local.env
+git clone -b dev https://github.com/TeamUltroid/ultroid /root/sys3
+cp sys3/.env /root/sys3/.env
 cd /root/sys3
 chmod 777 /root/sys3
 apt-get update -y
